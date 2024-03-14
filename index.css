@@ -14,7 +14,7 @@
   --toolsColor: #2f72ff;
   --secondryColor: #ece9e6;
   --hoverColor: rgb(249, 242, 242);
-  --projectNamebackground: #f0ca14;
+  --projectNamebackground: #eeac5c;
   --boxColor: #cf3d53;
   --fontFamily: 'Roboto Serif', serif;
   --borderColor: #e7d0d0;
@@ -220,7 +220,7 @@ a {
 }
 
 .grid-item img {
-  filter: blur(1.1px);
+  filter: blur(1px);
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-radius: 10px;
@@ -262,19 +262,27 @@ a {
   color: var(--toolsColor);
 }
 
+.js{
+  color:#b35e5e;
+}
+
+
+.fa-node{
+  color: #372a89;
+}
 .btnProjectShow {
   font-weight: bold;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 5px #c5b689;
-  background-color: #f0e229;
+  box-shadow: 0 5px #493b12;
+  background-color: #eeac5c;
   border: none;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 .btnProjectShow:hover {
-  background-color: #f0b616;
+  background-color: #ec7d4e;
 }
 
 .btnProjectShow:active {
