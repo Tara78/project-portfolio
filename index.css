@@ -492,18 +492,15 @@ footer {
 .wrapper {
   display: flex;
   flex-wrap: wrap;
+ gap: 20px;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 20px;
- }
+}
 
 .collapsible {
   width: 100%;
   max-width: 400px;
   overflow: hidden;
   font-weight: 500;
-  text-align: left;
 }
 
 .collapsible input {
@@ -598,6 +595,7 @@ em {
   width: 30%;
   font-size: 25px;
   width: 40%;
+
 }
 .icon {
   height: 43px;
@@ -606,6 +604,7 @@ em {
 .title h1 {
   font-size: 25px;
   margin-top: 5rem;
+  
 }
 .title h2 {
   font-size: 20px;
@@ -616,14 +615,17 @@ em {
   font-size: 18px;
   margin-top: -20px;
 }
+
 .mainHeader img {
   height: 100px;
   width: 100px;
   top: 7rem;
 }
+
 .title {
   margin-left: -1rem;
 }
+
 .mainHeader {
   width: 100%;
   height: auto;
@@ -683,5 +685,6 @@ h5{
  .collapsible{
   width: 90%;
  }
+
 
 }
